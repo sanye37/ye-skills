@@ -18,7 +18,7 @@
 
 可复制给支持技能安装的 Agent：
 
-> 请从 https://github.com/ye-toolbox/ye-skills 安装 skills/self-contained-image-prompts 技能。
+> 请从 https://github.com/sanye37/ye-skills 安装 skills/self-contained-image-prompts 技能。
 
 安装入口和可用目录取决于你使用的 Agent。本仓库不附安装脚本，不会自动配置图片服务或 API 密钥。
 
