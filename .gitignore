@@ -1,0 +1,7 @@
+/AGENTS.md
+/MEMORY.md
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db

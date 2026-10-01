@@ -1,0 +1,39 @@
+# Ye Skills
+
+由 **Ye（葉）** 维护的公开 Agent Skills 集合。每个 Skill 独立放在 `skills/` 下，按需安装。
+
+## 已发布
+
+| Skill | 用途 |
+|---|---|
+| [生图提示词撰写技巧](skills/self-contained-image-prompts/SKILL.md) | 将需求与上下文整理为独立、自足的生图或图像编辑提示词，明确参考图用途，减少歧义和反复堆叠的描述。 |
+
+## 安装与使用
+
+1. 点击仓库的 **Code → Download ZIP**，解压。
+2. 找到 `skills/self-contained-image-prompts` 文件夹，其中包含 `SKILL.md`。
+3. 将整个文件夹放到你使用的 Agent 支持的技能目录，按该工具的说明重新加载技能。
+
+也可以直接把 [SKILL.md](skills/self-contained-image-prompts/SKILL.md) 的内容交给 AI，并说明“按这份规则帮我写提示词”。这是手动提供规则，不等同于安装或自动调用。
+
+可复制给支持技能安装的 Agent：
+
+> 请从 https://github.com/ye-toolbox/ye-skills 安装 skills/self-contained-image-prompts 技能。
+
+安装入口和可用目录取决于你使用的 Agent。本仓库不附安装脚本，不会自动配置图片服务或 API 密钥。
+
+## 使用示例
+
+> 使用生图提示词撰写技巧，把我的需求整理成可直接交给图像模型的提示词。图1是要编辑的海报，图2只参考背景配色。保留图1的构图和主体，简化背景细节。
+
+> 使用生图提示词撰写技巧，检查下面这段提示词的歧义、矛盾和重复内容，保留核心设计要求后重新写一版。
+
+参考图需要在真正生成图片时一并交给图像模型。Skill 帮助组织表达，不包含图片生成工具，也不保证模型准确执行每项要求。
+
+## 范围与贡献
+
+本仓库只收录明确公开的技能，不包含付费课程、学员专属工具或私有项目素材。欢迎通过 Issue 提交问题、通过 Pull Request 提交改进，参见 [贡献说明](CONTRIBUTING.md)。
+
+## 许可
+
+采用 [MIT License](LICENSE)，版权署名为 Ye。允许使用、修改和再分发（包括商用），需保留版权及许可声明。具体条款以 LICENSE 为准；许可适用于本仓库内容，不替第三方图片、模型服务或素材授予权利。
