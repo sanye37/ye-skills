@@ -6,7 +6,7 @@
 
 | Skill | 用途 |
 |---|---|
-| [yeskill 生图提示词技巧](skills/ye-prompt/SKILL.md) | 将需求与上下文整理为独立、自足的生图或图像编辑提示词，明确参考图用途，减少歧义和反复堆叠的描述。 |
+| [yeskill 生图提示词技巧](skills/ye-prompt/SKILL.md) | 让 Agent 把用户意图转成真正能指导图像模型生成或编辑的提示词。 |
 
 ## 安装与使用
 
