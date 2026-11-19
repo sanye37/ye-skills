@@ -7,11 +7,12 @@
 | Skill | 用途 |
 |---|---|
 | [yeskill 生图提示词技巧](skills/ye-prompt/SKILL.md) | 让 Agent 把用户意图转成真正能指导图像模型生成或编辑的提示词。 |
+| [yeskill 网页生图操作](skills/ye-image-web/SKILL.md) | 让 Agent 在 Holopix、Midjourney、Lovart 或同类网站准备生图任务、核对并提交，随后下载原图或回查实际输入。 |
 
 ## 安装与使用
 
 1. 点击仓库的 **Code → Download ZIP**，解压。
-2. 找到 `skills/ye-prompt` 文件夹，其中包含 `SKILL.md`。
+2. 在 `skills/` 下找到要安装的技能文件夹。`ye-prompt` 用于写提示词，`ye-image-web` 用于网页操作。
 3. 将整个文件夹放到你使用的 Agent 支持的技能目录，按该工具的说明重新加载技能。
 
 也可以直接把 [SKILL.md](skills/ye-prompt/SKILL.md) 的内容交给 AI，并说明“按这份规则帮我写提示词”。这是手动提供规则，不等同于安装或自动调用。
@@ -20,6 +21,8 @@
 
 > 请从 https://github.com/sanye37/ye-skills 安装 skills/ye-prompt 技能。
 
+> 请从 https://github.com/sanye37/ye-skills 安装 skills/ye-image-web 技能。
+
 安装入口和可用目录取决于你使用的 Agent。本仓库不附安装脚本，不会自动配置图片服务或 API 密钥。
 
 ## 使用示例
@@ -27,6 +30,10 @@
 > 使用 yeskill 的生图提示词技巧，把我的需求整理成可直接交给图像模型的提示词。图1是要编辑的海报，图2只参考背景配色。保留图1的构图和主体，简化背景细节。
 
 > 使用 yeskill 的生图提示词技巧，检查下面这段提示词的歧义、矛盾和重复内容，保留核心设计要求后重新写一版。
+
+> 使用 yeskill 网页生图操作，打开我提供的 Holopix 画布。图1是角色原稿，图2只参考背景。沿用我指定的模型和画幅，填好提示词和参考图，先停在提交前让我看。
+
+网页操作需要 Agent 有可用的浏览器或平台工具，并能访问你自己的项目。安装技能后，给它目标项目、参考图和当轮操作范围。
 
 参考图需要在真正生成图片时一并交给图像模型。Skill 帮助组织表达，不包含图片生成工具，也不保证模型准确执行每项要求。
 
